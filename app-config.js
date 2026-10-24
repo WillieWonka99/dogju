@@ -1,5 +1,6 @@
 /* 狗聚：共用資料庫設定（Supabase）
-   把 Supabase 專案的兩個值填進下面的引號裡（Project Settings → API Keys / Data API）：
+   這個檔案由 tools/build_web.py 從專案的 .env 產生（SUPABASE_URL、SUPABASE_ANON_KEY），要改請改 .env 再 build。
+   兩個值的來源（Project Settings → API Keys / Data API）：
      supabaseUrl      例如 'https://abcdefghijklmnop.supabase.co'
      supabaseAnonKey  「anon public」或「Publishable key」（sb_publishable_…）— 這把本來就是公開的
    千萬不要放 service_role / secret key。
@@ -8,5 +9,5 @@
 window.APP_CONFIG = {
   supabaseUrl: 'https://bxoaolzovbcdulqacaur.supabase.co',
   supabaseAnonKey: 'sb_publishable_G9rinvl00nX_2jGGOH7GTQ_333VVTA6',
-  adminTokenHash: '92f687c62d6d4018a8247cf1e52723e53604a0e6db7a989477a4c51d747545e3'
+  adminTokenHash: 'b6730da825b7942f538815f52185885e52cb08c5e260dc806bb9be0708f576f9'
 };
