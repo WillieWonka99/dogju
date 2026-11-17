@@ -18,7 +18,7 @@ window.APP_CONFIG = {
   adminTokenHash: 'b6730da825b7942f538815f52185885e52cb08c5e260dc806bb9be0708f576f9',
   lineLogin: true,
   googleLogin: true,
-  vapidPublicKey: '',
+  vapidPublicKey: 'BDEvHC6WTjRV7F0JVMetXFHyiSJfPCR7_L3F4DiE1SOCh_mzOL4h73Ba94vHc9LeWriqksKr33dHC76dT2ujbqE',
   googleMapsKey: 'AIzaSyAxKEws1yiLB2lIDILIFpJSGzgjTbZcUZo',
   googleMapsMapId: ''
 };
